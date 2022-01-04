@@ -1,4 +1,4 @@
-const imagesLoaded = require('imagesLoaded');
+const imagesLoaded = require('imagesloaded');
 
 // Imagens responsivas + pré-carregamento = carregamentos de imagem mais rápidos #
 
