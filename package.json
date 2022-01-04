@@ -1,0 +1,31 @@
+{
+  "name": "transicao-pagina-node",
+  "version": "1.0.0",
+  "description": "A concept for a kinetic typography based page transition where background letters come into the foreground and reveal a new content level.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "clean": "rm -rf dist/*",
+    "build:parcel": "parcel build src/index.html --no-content-hash --no-source-maps --public-url ./",
+    "build": "npm run clean && npm run build:parcel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunnacroches/transicao-pagina-node.git"
+  },
+  "keywords": [],
+  "author": "Brunna Croches",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunnacroches/transicao-pagina-node/issues"
+  },
+  "homepage": "https://github.com/brunnacroches/transicao-pagina-node#readme",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "parcel": "latest"
+  },
+  "dependencies": {
+    "gsap": "^3.8.0",
+    "imagesloaded": "^4.1.4"
+  }
+}
