@@ -2,7 +2,6 @@
   "name": "transicao-pagina-node",
   "version": "1.0.0",
   "description": "A concept for a kinetic typography based page transition where background letters come into the foreground and reveal a new content level.",
-  "main": "index.js",
   "scripts": {
     "prod": "parcel src/index.html",
     "start": "parcel src/index.html --open",
