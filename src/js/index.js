@@ -5,6 +5,7 @@ import { Item } from './Item';
 import gsap from 'gsap/gsap-core';
 
 
+
 // pré-carregar as imagens e depois remover o carregador (classe de carregamento 
 preloadImages('.item__img, .article__img').then(() => document.body.classList.remove('loading'));
 
