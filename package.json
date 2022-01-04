@@ -4,9 +4,9 @@
   "description": "A concept for a kinetic typography based page transition where background letters come into the foreground and reveal a new content level.",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html --open",
+    "start": "npx parcel src/index.html --open",
     "clean": "rm -rf dist/*",
-    "build:parcel": "parcel build src/index.html --no-content-hash --no-source-maps --public-url ./",
+    "build:parcel": "npx parcel build src/index.html --no-content-hash --no-source-maps --public-url ./",
     "build": "npm run clean && npm run build:parcel"
   },
   "repository": {
